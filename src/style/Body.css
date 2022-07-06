@@ -1,0 +1,28 @@
+.cv_body {
+    border: solid 1px yellow;
+    width: 70%;
+
+
+    min-height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.section {
+    height: 100%;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    width: 0.5;
+
+}

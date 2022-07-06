@@ -1,0 +1,12 @@
+.global {
+    border: 1px solid red;
+    height: 100%;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    color: black;
+    font-family: "Courier New";
+}
