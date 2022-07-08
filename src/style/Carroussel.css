@@ -1,0 +1,88 @@
+.changeop {
+    opacity: 0;
+
+}
+
+.nochangeop {
+    opacity: 1;
+    transition: all 1000ms linear;
+}
+
+.divp {
+    height: 100%;
+}
+
+.navigation {
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.divp:hover {
+    transition: background-color .5s ease-in;
+    background-color: grey;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.right {
+    transform: rotate(-45deg);
+    translate: -2px;
+    -webkit-transform: rotate(-45deg);
+}
+
+.left {
+    translate: 2px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+
+.buttonDiv {
+    border: none;
+    background-color: black;
+    color: white;
+    margin: 0 0 0 0;
+    cursor: pointer;
+    height: 100%;
+}
+
+.buttonDiv:hover {
+    background-color: rgb(223, 222, 222);
+    color: black;
+}
+
+.slide {
+    transition: all 1s ease;
+    width: 0%;
+}
+
+.noslide {
+    transition: all 1s ease;
+    width: 100%;
+}
+
+.activeButton {
+    border: none;
+    background-color: green;
+    color: white;
+    margin: 0 0 0 0;
+    cursor: pointer;
+    height: 100%;
+}
+
+img {
+
+    height: 20vh;
+}
+
+.missionSpan {
+    text-decoration: underline;
+}
